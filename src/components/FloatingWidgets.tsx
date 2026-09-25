@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Zap, HelpCircle, PhoneCall, Calendar, MapPin } from 'lucide-react';
-import { CLINIC_INFO } from '../data/siteData.ts';
+import { CLINIC_INFO } from '../data/siteData';
 
 interface FloatingWidgetsProps {
   onNavigateToBooking: () => void;

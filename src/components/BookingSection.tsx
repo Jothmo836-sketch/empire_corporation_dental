@@ -15,7 +15,7 @@ import {
   Stethoscope,
   HeartHandshake
 } from 'lucide-react';
-import { CLINIC_INFO, FEATURED_SERVICES } from '../data/siteData.ts';
+import { CLINIC_INFO, FEATURED_SERVICES } from '../data/siteData';
 
 interface BookingSectionProps {
   selectedTreatmentName?: string;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Sparkles, CreditCard, Stethoscope, Plus, Minus } from 'lucide-react';
-import { FAQ_ITEMS } from '../data/siteData.ts';
+import { FAQ_ITEMS } from '../data/siteData';
 
 export const FaqSection: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<'treatments' | 'financing' | 'first-visit'>('treatments');

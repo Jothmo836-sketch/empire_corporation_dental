@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform, useSpring } from 'motion/react';
 import { Sparkles, Smile, ShieldCheck, HeartHandshake, ArrowRight, Zap, Stethoscope } from 'lucide-react';
-import { DENTAL_SPECIALTIES, MARQUEE_ITEMS } from '../data/siteData.ts';
+import { DENTAL_SPECIALTIES, MARQUEE_ITEMS } from '../data/siteData';
 
 interface DiverseSpecialtiesProps {
   onSelectCategory: (categoryName: string) => void;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Send, Check, Linkedin, Instagram, MapPin, Phone, Mail, Calendar } from 'lucide-react';
-import { CLINIC_INFO } from '../data/siteData.ts';
+import { CLINIC_INFO } from '../data/siteData';
 
 interface FooterProps {
   onNavigateToBooking: () => void;

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { ChevronLeft, ChevronRight, Star } from 'lucide-react';
-import { TESTIMONIALS } from '../data/siteData.ts';
+import { TESTIMONIALS } from '../data/siteData';
 
 export const TestimonialsSection: React.FC = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
