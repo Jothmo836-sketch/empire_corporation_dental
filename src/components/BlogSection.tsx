@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 import { ArrowUpRight } from 'lucide-react';
-import { BLOG_POSTS, DentalArticle } from '../data/siteData';
+import { BLOG_POSTS, DentalArticle } from '../data/siteData.ts';
 
 interface BlogSectionProps {
   onNavigateToBooking: (topic?: string) => void;

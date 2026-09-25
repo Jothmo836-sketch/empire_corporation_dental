@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useSpring } from 'motion/react';
 import { ArrowUpRight, Calendar, Sparkles } from 'lucide-react';
-import { CLINIC_INFO } from '../data/siteData';
+import { CLINIC_INFO } from '../data/siteData.ts';
 
 interface CtaSectionProps {
   onNavigateToBooking: () => void;

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, useScroll, useTransform, useSpring } from 'motion/react';
 import { ChevronLeft, ChevronRight, ArrowUpRight, MapPin, Sparkles, Clock } from 'lucide-react';
-import { FEATURED_SERVICES, DentalService } from '../data/siteData';
+import { FEATURED_SERVICES, DentalService } from '../data/siteData.ts';
 
 interface FeaturedServicesProps {
   onSelectService: (service: DentalService) => void;

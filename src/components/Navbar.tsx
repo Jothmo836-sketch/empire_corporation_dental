@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Menu, X, ChevronDown, Phone, Calendar } from 'lucide-react';
-import { CLINIC_INFO } from '../data/siteData';
+import { CLINIC_INFO } from '../data/siteData.ts';
 
 interface NavbarProps {
   onNavigateToBooking: () => void;

@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useScroll, useTransform, useSpring } from 'motion/react';
 import { Search, Award, ChevronLeft, ChevronRight, Send, Check, Calendar, MapPin, Sparkles } from 'lucide-react';
-import { HERO_SLIDES, CLINIC_INFO } from '../data/siteData';
+import { HERO_SLIDES, CLINIC_INFO } from '../data/siteData.ts';
 
 interface HeroProps {
   onNavigateToBooking: (query?: string) => void;

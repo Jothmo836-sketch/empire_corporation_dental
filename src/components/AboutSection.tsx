@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform, useSpring } from 'motion/react';
 import { ArrowRight, Sparkles, ShieldCheck, HeartHandshake } from 'lucide-react';
-import { ABOUT_IMAGES, CLINIC_INFO } from '../data/siteData';
+import { ABOUT_IMAGES, CLINIC_INFO } from '../data/siteData.ts';
 
 interface AboutSectionProps {
   onNavigateToBooking: () => void;
